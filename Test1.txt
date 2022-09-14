@@ -1,0 +1,35 @@
+public class decrementExactTest
+{
+   @Test
+   public void testdecrementExactPositive()
+{
+assertEquals(5 "output" ,decrementExact(6)"valore ottenuto"); 
+}
+@displayname("scrivi cosa fa la funzione") 
+@Test
+   public void testdecrementExactNegative()
+{
+assertEquals( -7 "output" ,decrementExact(-6)"valore ottenuto");
+}
+@Tes
+   public void testdecrementExactException()
+{
+assertThrows( ArithmeticException.class "output" ,()->{decrementExact(7)}"valore ottenuto");
+
+
+
+
+
+
+  assertTrue
+• assertFalse
+• assertEquals:  confronta i valori di due oggettitramite metodo equals() della classe
+• assertNotEquals
+• assertNull
+• assertNotNull
+• assertSame : confronta se due oggetti sono uguali in base ai loro riferimenti in memoria
+• assertNotSame
+• assertArrayEquals
+• assertAll
+• assertThrows
+• fail
